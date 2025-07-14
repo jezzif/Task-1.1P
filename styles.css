@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: rgb(196, 247, 230);
+    width: 100%;
+    float: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 3em;
+}
+#navbar li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+.imgTextBox {
+    position: absolute;
+    top: 65%;
+    width: 90%;
+    text-align: center;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    margin-left: 5%;
+    opacity: 0.8;
+}
+.imgTextBox p {
+    opacity: 1;
+    font-size: 28px;
+}
+
+.container {
+    position: relative;
+}
