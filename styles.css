@@ -5,7 +5,8 @@ body {
 }
 
 #navbar {
-    background-color: rgb(61, 34, 139);
+    /*background-color: rgb(61, 34, 139);*/
+    background-image: linear-gradient(to right, rgb(50, 28, 114), rgb(158, 61, 50));
     width: 100%;
     float: left;
     padding-top: 0.5em;
@@ -27,6 +28,8 @@ body {
 
 #banner {
     width: 100%;
+    max-width: 100%;
+    border-radius: 0;
 }
 
 .imgTextBox {
@@ -63,4 +66,47 @@ body {
 
 hr {
     width: 40%;
+    height: 4px;
+    background-color: rgb(61, 34, 139);
+    border-width: 0;
+}
+
+.container img {
+    max-width: 60%;
+    border-radius: 30px;
+    padding-right: 10px;
+
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px ;
+}
+
+.gallery  {
+    width: 90%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 22%;
+    border-radius: 10px;
+    padding-right: 0;
+}
+@media only screen and (max-width: 700px) {
+    .gallery img {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .gallery img {
+        width: 100%;
+    }
 }
