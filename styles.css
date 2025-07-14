@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -26,15 +27,20 @@ body {
     font-weight: 600;
 }
 
+#navbar li a:hover {
+    color: rgb(206, 78, 47);
+}
+
 #banner {
     width: 100%;
     max-width: 100%;
     border-radius: 0;
+    position: relative;
 }
 
 .imgTextBox {
     position: absolute;
-    top: 65%;
+    top: 50%;
     width: 90%;
     text-align: center;
     color: white;
@@ -48,7 +54,7 @@ body {
 }
 
 .container {
-    position: relative;
+    position: static;
 }
 
 #pfp {
