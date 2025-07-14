@@ -1,28 +1,31 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 #navbar {
-    background-color: rgb(196, 247, 230);
+    background-color: rgb(61, 34, 139);
     width: 100%;
     float: left;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    text-align: left;
 }
 
 #navbar li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 3em;
+    padding-right: 3em;    
 }
+
 #navbar li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     font-weight: 600;
 }
 
-img {
+#banner {
     width: 100%;
 }
 
@@ -43,4 +46,21 @@ img {
 
 .container {
     position: relative;
+}
+
+#pfp {
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 3em;
+}
+
+.content {
+    color: rgb(61, 34, 139);
+    font-size: 20px;
+}
+
+hr {
+    width: 40%;
 }
